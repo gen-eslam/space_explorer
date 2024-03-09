@@ -54,8 +54,12 @@ class HomeScreen extends StatelessWidget {
               CustomButton(
                 style: ButtonStyle(
                   // padding
-                  padding: MaterialStateProperty.all(const EdgeInsets.symmetric(
-                      horizontal: 100, vertical: 12)),
+                  padding: MaterialStateProperty.all(
+                    const EdgeInsets.symmetric(
+                      horizontal: 100,
+                      vertical: 12,
+                    ),
+                  ),
                   // text style
                   textStyle: MaterialStateProperty.all(
                     AppTheme.openSansFont22,
